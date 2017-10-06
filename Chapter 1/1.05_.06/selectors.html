@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document Title</title>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="CSS Specialist Course Documents">
+        <meta name="author" content="Christopher Lee">
+        
+        <!-- <link rel="stylesheet" type="text/css" href=""> -->
+        
+        <style>
+            
+                /*ID selector starts with a period*/
+            
+            #id_example{
+                background-color: forestgreen;
+            }
+                /*Class selector starts with a period*/
+            
+            .class_example{
+                color: crimson;
+            }                
+            
+                /*Element Selector*/
+            
+            h1{
+                background-color: lightblue;
+            }
+            
+                /*Ancestor / Descendant Relationship*/
+            
+            ul p{
+                background-color: yellow;
+            }
+            
+                /*Parent / Child Relationship*/
+            p>a{
+                background-color: purple;
+            }
+        </style>
+        
+        <!-- <script></script> -->
+        
+    </head>
+    <body>
+        <h1>Welcome to this new WebSite!</h1>
+        
+        <p class="class_example">Here's a link to my favorite search engine:<a href="www.google.com">Google</a></p>
+        
+        <p id="id_example">Here's a link to my favorite search engine:<a href="www.google.com">Google</a></p>
+        
+        <!-- Using multiple selectors -->
+        <p class="class_example" id="id_example">Here's a link to my favorite search engine:<a href="www.google.com">Google</a></p>
+        
+        <ul>
+            <li><p>Paragraph 1</p></li>
+            <li><p>Paragraph 2</p></li>
+            <li><p>Paragraph 2</p></li>
+            <li><a>Anchor 1</a></li>        
+        </ul>
+    </body>
+</html>
