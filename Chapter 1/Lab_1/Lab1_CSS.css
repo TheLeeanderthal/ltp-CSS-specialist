@@ -1,0 +1,21 @@
+/*Comment 1*/
+h1, h2, h3{
+    background-color: lightblue;
+}
+/*Comment 2*/
+ul p{
+    background-color: yellow;
+}
+/*Comment 3*/
+p>a{
+    background-color: orange;
+}
+
+#favorite_cities{
+    font-weight: bold;
+} 
+
+.US{
+    color: green;
+}
+
