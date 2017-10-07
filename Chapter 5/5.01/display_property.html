@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Document Title</title>
+        <title>Display Property</title>
         
         <meta charset="utf-8">
         <meta name="description" content="CSS Specialist Course Documents">
         <meta name="author" content="Christopher Lee">
         
-        <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
         
         <!-- <style></style> -->
         
@@ -15,5 +15,32 @@
         
     </head>
     <body>
+        <div style="width: 49%; height: 500px; float: left; background-color: grey; margin-top: 10px;">
+            <span>This text displays inline by default</span>
+            <span id="col1">TEST TEXT</span>
+            <span>This text displays inline by default</span>
+            <span>This text displays inline by default</span>
+            <span>This text displays inline by default</span>
+            <span>This text displays inline by default</span>
+        </div>
+        
+        <div style="width: 49%; height: 500px; float: right; background-color: grey; margin-top: 10px;">
+            <div class="col2" style="width: 50px; height: 50px; margin: 2px;"></div>
+            <div class="col2" style="width: 100px; height: 100px; margin: 2px;"></div>
+        </div>
+        
+        <div style="width: 49%; height: 500px; float: left; background-color: grey; margin-top: 10px;">
+            <span>This text displays inline by default</span>
+            <span id="col2">TEST TEXT</span>
+            <span>This text displays inline by default</span>
+            <span>This text displays inline by default</span>
+            <span>This text displays inline by default</span>
+            <span>This text displays inline by default</span>
+        </div>
+        
+        <div style="width: 49%; height: 500px; float: right; background-color: grey; margin-top: 10px;">
+            <div class="col3" style="width: 50px; height: 50px; margin: 2px;"></div>
+            <div class="col3" style="width: 100px; height: 100px; margin: 2px;"></div>
+        </div>
     </body>
 </html>

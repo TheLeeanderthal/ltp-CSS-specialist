@@ -1,0 +1,23 @@
+.show-bkg{
+    background-color: grey;
+}
+#target{
+    background-color: rgb(150,150,255);
+    position: static;
+}
+#target2{
+    background-color: rgb(150,150,255);
+    position: relative;
+    top: 50px;
+}
+#target3{
+    background-color: rgb(150,150,255);
+    position: absolute;
+    top: 60%
+}
+#target4{
+    background-color: rgb(150,150,255);
+    position: fixed;
+    top: 600px;
+    /*z-index: -1;*/
+}

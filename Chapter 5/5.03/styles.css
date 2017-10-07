@@ -1,0 +1,51 @@
+.show-bkg{
+    background-color: grey;
+}
+#target{
+    background-color: red;
+    
+    width: 200px;
+    height: 200px;
+    
+    /*display: inline-block;*/
+    /*position:absolute;
+    left:0px;*/
+    float: left;
+
+}
+#target2{
+    background-color: blue;
+    
+    width: 200px;
+    height: 200px;
+    
+    /*display: inline-block;*/
+    /*position:absolute;
+    left:0px;*/
+    float: right;
+
+}
+#target3{
+    background-color: purple;
+    
+    width: 200px;
+    height: 200px;
+    
+    /*display: inline-block;*/
+    /*position:absolute;
+    left:0px;*/
+    float: left;
+
+}
+#target3:hover{
+    background-color: purple;
+    
+    width: 200px;
+    height: 200px;
+    
+    /*display: inline-block;*/
+    /*position:absolute;
+    left:0px;*/
+    float: right;
+
+}

@@ -1,0 +1,19 @@
+#col1{
+    color: blue;
+    display: inline;
+    line-height: 50px;
+}
+.col2{
+    background-color: red;
+    display: block;
+}
+
+#col2{
+    color: blue;
+    display: block;
+    line-height: 50px;
+}
+.col3{
+    background-color: red;
+    display: inline-block;
+}
