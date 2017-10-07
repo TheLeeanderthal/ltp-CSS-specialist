@@ -1,0 +1,24 @@
+
+body{
+    background-color: black;
+}
+
+.main_body{
+    width: 900px;
+    height: 300px;
+    background-image: url(images/ash.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.main_body2{
+    width: 900px;
+    height: 300px;
+    background-image: url(images/tree.png), url(images/line.png);
+    background-repeat: no-repeat, repeat-x;
+    background-size: 20% auto, auto;
+    background-position: bottom right, top left;
+}
+h1{
+    color: lightblue;
+    font-size: 50px;
+}

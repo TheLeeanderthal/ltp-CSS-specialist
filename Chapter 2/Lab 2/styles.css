@@ -1,0 +1,46 @@
+body{
+    background-image: url(images/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+#my_menu .submenu ul{
+    display: none;
+    position: fixed;
+    background-color: darkslateblue;
+    list-style-type: none;
+    border-left: 3px solid darkslateblue;
+    border-right: 3px solid darkslateblue;
+    border-bottom: 3px solid darkslateblue;
+    margin-top: 3px;
+    padding: 10px;
+}
+#my_menu .submenu:hover ul{
+    display: block;
+}
+#my_menu{
+    background-color: darkslateblue;
+}
+#my_menu td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1, h2{
+    font-family: 'Gloria Hallelujah', cursive; 
+
+}
+h1{
+    font-weight:bolder;
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+    padding-left: 20px;
+}
+ul{
+    list-style-type: square;
+}

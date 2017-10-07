@@ -1,0 +1,20 @@
+.poem{
+    white-space:normal;
+    text-align:left;
+    text-decoration: line-through;
+}
+.poem2{
+    white-space:pre;
+    text-align:right;
+    text-decoration:overline;
+}
+.poem3{
+    white-space:pre-wrap;
+    text-align: center;
+    text-decoration:underline;
+}
+.poem4{
+    white-space:pre-line;
+    text-align:justify;
+    text-decoration:none;
+}
