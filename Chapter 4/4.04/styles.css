@@ -1,0 +1,35 @@
+p{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    animation: colorChange 4s;
+    -ms-animation: colorChange 4s;
+    -moz-animation: colorChange 4s;
+    -webkit-animation: colorChange 4s;
+    
+    animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes colorChange{
+    0%{background-color: red;}
+    50%{background-color: green;}
+    100%{background-color: red;}
+}
+@-ms-keyframes colorChange{
+    0%{background-color: red;}
+    50%{background-color: green;}
+    100%{background-color: red;}
+}
+@-moz-keyframes colorChange{
+    0%{background-color: red;}
+    50%{background-color: green;}
+    100%{background-color: red;}
+}
+@-webkit-keyframes colorChange{
+    0%{background-color: red;}
+    50%{background-color: green;}
+    100%{background-color: red;}
+}

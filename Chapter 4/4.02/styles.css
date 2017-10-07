@@ -1,0 +1,119 @@
+body{
+    
+}
+.image{
+    float: left;
+    background-color: green;
+    padding: 10px 10px 10px 10px;
+    border: 1px dashed black;
+    margin: 10px 10px 10px 10px;
+    outline: 10px solid red;
+    
+    width: 150px;
+    height: auto;
+}
+#left{
+    
+}
+    #left:hover{
+        transform: translate(90px,90px);
+        -webkit-transform: translate(90px,90px);
+        -ms-transform: translate(90px,90px);
+        -moz-transform: translate(90px,90px);
+
+    }
+}
+#right{
+    
+}
+    #right:hover{
+
+    }
+#left2{
+    
+}
+    #left2:hover{
+        transform: rotate(20deg);
+        -webkit-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+        -moz-transform: rotate(20deg);
+
+    }
+}
+#right2{
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+}
+    #right2:hover{
+
+    }
+#left3{
+    
+}
+    #left3:hover{
+        transform: scale(2,2);
+        -webkit-transform: scale(2,2);
+        -ms-transform: scale(2,2);
+        -moz-transform: scale(2,2);
+
+    }
+}
+#right3{
+    
+}
+    #right3:hover{
+
+    }
+#left4{
+    
+}
+    #left4:hover{
+        transform: skew(20deg, 0deg);
+        -webkit-transform: skew(20deg, 0deg);
+        -ms-transform: skew(20deg, 0deg);
+        -moz-transform: skew(20deg, 0deg);
+
+    }
+}
+#right4{
+    
+}
+    #right4:hover{
+
+    }
+#left5{
+    
+}
+    #left5:hover{
+        transform: skewY(20deg);
+        -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+        -moz-transform: skewY(20deg);
+
+    }
+}
+#right5{
+    
+}
+    #right5:hover{
+
+    }
+#left6{
+    
+}
+    #left6:hover{
+        transform: matrix(90px);
+        -webkit-transform: matrix(90px);
+        -ms-transform: matrix(90px);
+        -moz-transform: matrix(90px);
+
+    }
+}
+#right6{
+    
+}
+    #right6:hover{
+
+    }
