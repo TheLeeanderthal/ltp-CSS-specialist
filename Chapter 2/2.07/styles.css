@@ -24,3 +24,9 @@ body{
 .ross .sprite{
     background: url(images/lizards.png) -1000px 0px;
 }
+.grendal .sprite{
+    background: url(images/lizards.png) -1250px 0px;
+}
+.hansel .sprite{
+    background: url(images/lizards.png) -1500px 0px;
+}
